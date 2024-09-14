@@ -12,7 +12,7 @@
 - **DevOps**:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Linux, Git, Docker, Kubernetes
 - **CI/CD**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            Jenkins
 - **IAC**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             Terraform
-- **Configuration**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ansible
+- **Configuration**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ansible
 
 ### Projects 🔧
 - [Mario Game GitOps!🍄](https://github.com/ryanbynoe/mario-game) - Deployed Mario video game using gitops practices.
