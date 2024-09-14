@@ -27,3 +27,6 @@
 - Microsoft Certified: Azure Fundamentals
 - CompTIA Security+ [Expired]
 - Docker Training for the Absolute Beginner
+
+### Connect with me 📫
+- [Linkedin](https://www.linkedin.com/in/ryanbynoe/)
