@@ -1,12 +1,20 @@
-## Hey, I'm Ryan Bynoe 👋
+## Hey, I'm Ryan Bynoe 👋 and I'm on ☁️ 9!
 
 ![](/assets/converted.gif)
 
-- 🔭 I’m currently working on NFL Card Matching Game
-- 🌱 I’m currently learning GitOps
-- 👯 I’m looking to collaborate on DevOps Projects
-- 🤔 I’m looking for help with Application Deployment
-- 💬 Ask me about the cloud or any related tech stuff
-- 📫 How to reach me: LinkedIn, Email
-- 😄 Pronouns: He/His
-- ⚡ Fun fact: I'm learning to DJ 🎧
+[![readme Quotes](https://quotes-github-readme.vercel.app/api?theme=catppuccin)](https://github.com/piyushsuthar/github-readme-quotes)
+
+### Skills 🛠️
+- **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, Powershell
+- **Databases**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        MySQL, PostgreSQL
+- **Cloud Platforms**:  &nbsp;&nbsp;                  AWS, Azure
+- **DevOps**:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Linux, Git, Docker, Kubernetes
+- **CI/CD**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            Jenkins
+- **IAC**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             Terraform
+- **Configuration**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ansible
+
+### Projects 🔧
+- [Mario Game GitOps!🍄](https://github.com/ryanbynoe/mario-game) - Deployed Mario video game using gitops practices.
+- [Spotify Playlist Using Terraform!🎧](https://github.com/ryanbynoe/spotifytf) - Custom Spotify playlist using Docker and Terraform.
+- [AWS Password Manager🔐](https://github.com/ryanbynoe/aws_password_manager) - Setup password manager using PassBolt.
+- [Terraform Web Server Cluster](https://github.com/ryanbynoe/terraform-project-1) - Deployed web server cluster using Terraform and AWS
