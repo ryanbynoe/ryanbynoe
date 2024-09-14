@@ -1,6 +1,6 @@
 ## Hey, I'm Ryan Bynoe 👋
 
-![](/assets/c)
+![](/assets/converted.gif)
 
 - 🔭 I’m currently working on NFL Card Matching Game
 - 🌱 I’m currently learning GitOps
