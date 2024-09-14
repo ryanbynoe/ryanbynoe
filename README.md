@@ -1,5 +1,7 @@
 ## Hey, I'm Ryan Bynoe 👋
 
+![](/assets/c)
+
 - 🔭 I’m currently working on NFL Card Matching Game
 - 🌱 I’m currently learning GitOps
 - 👯 I’m looking to collaborate on DevOps Projects
