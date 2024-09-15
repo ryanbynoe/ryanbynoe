@@ -16,7 +16,7 @@
 
 ### Projects 🔧
 - [Mario Game GitOps!🍄](https://github.com/ryanbynoe/mario-game) - Deployed Mario video game using gitops practices.
-- [Netflix Clone 📼](https://github.com/ryanbynoe/terraform-project-1) - Deployed web server cluster using Terraform and AWS
+- [Netflix Clone 📼](https://github.com/ryanbynoe/aws-netflix-clone-kubernetes) - Deployed web server cluster using Terraform and AWS
 - [Spotify Playlist Using Terraform!🎧](https://github.com/ryanbynoe/spotifytf) - Custom Spotify playlist using Docker and Terraform.
 - [AWS Password Manager🔐](https://github.com/ryanbynoe/aws_password_manager) - Setup password manager using PassBolt.
 - [Terraform Web Server Cluster ⛓️](https://github.com/ryanbynoe/terraform-project-1) - Deployed web server cluster using Terraform and AWS
