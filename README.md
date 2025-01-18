@@ -15,16 +15,16 @@
 ### Education 🎓
 - Bachelor's of Science in Information Technology @ Liberty University
 ### Skills 🛠️
-- **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, PowerShell, C++, Go, Ruby
+### Skills 🛠️
+- **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, PowerShell
 - **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    TCP/IP, DNS, HTTP/S, SSL/TLS, VPN
 - **Security Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Wireshark, Nmap, Metasploit, Burp Suite, Nessus, Tenable
 - **EDR**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Microsoft Defender for Endpoint
-- **Forensics**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Volatility, Autopsy, EnCase, FTK
 - **OS Security**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Windows, Linux, macOS Hardening
-- **Cloud Security**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    AWS, Azure, GCP Security Services
+- **Cloud Security**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    AWS, Azure
 - **IAM**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    OAuth, SAML, Active Directory, LDAP
 - **Compliance**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    ISO 27001, NIST, HIPAA, PCI DSS
-- **SIEM**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Splunk, ELK Stack, QRadar, KQL
+- **SIEM**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Splunk, KQL
 - **Containers**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Docker Security, Kubernetes Security
 - **DevSecOps**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Git Security, Jenkins, SonarQube
 - **Cryptography**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    PKI, Encryption Algorithms, Key Management
