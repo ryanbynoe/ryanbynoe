@@ -6,13 +6,20 @@
 ### Education 🎓
 - Bachelor's of Science in Information Technology @ Liberty University
 ### Skills 🛠️
-- **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, Powershell
-- **Databases**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        MySQL, PostgreSQL
-- **Cloud Platforms**:  &nbsp;&nbsp;                  AWS, Azure
-- **DevOps**:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Linux, Git, Docker, Kubernetes
-- **CI/CD**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            Jenkins
-- **IAC**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             Terraform
-- **Configuration**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ansible
+- **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, PowerShell, C++, Go, Ruby
+- **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    TCP/IP, DNS, HTTP/S, SSL/TLS, VPN
+- **Security Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Wireshark, Nmap, Metasploit, Burp Suite, Nessus, Tenable
+- **EDR**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Microsoft Defender for Endpoint
+- **Forensics**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Volatility, Autopsy, EnCase, FTK
+- **OS Security**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Windows, Linux, macOS Hardening
+- **Cloud Security**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    AWS, Azure, GCP Security Services
+- **IAM**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    OAuth, SAML, Active Directory, LDAP
+- **Compliance**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    ISO 27001, NIST, HIPAA, PCI DSS
+- **SIEM**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Splunk, ELK Stack, QRadar, KQL
+- **Containers**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Docker Security, Kubernetes Security
+- **DevSecOps**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Git Security, Jenkins, SonarQube
+- **Cryptography**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    PKI, Encryption Algorithms, Key Management
+- **Scripting**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    PowerShell, Bash
 
 ### Projects 🔧
 - [Threat Hunting ‼️](https://github.com/ryanbynoe/threat-hunting-scenario-tor)
