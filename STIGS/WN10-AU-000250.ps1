@@ -1,6 +1,6 @@
  <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    Ensures that User Account Control (UAC) properly prompts administrators for consent on the secure desktop, enhancing security by requiring explicit authorization for privileged actions.
 
 .NOTES
     Author          : Ryan Bynoe
