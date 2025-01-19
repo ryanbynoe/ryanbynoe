@@ -22,8 +22,6 @@
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
     PS C:\WN10-CC-000170.ps1 
 #>
 
