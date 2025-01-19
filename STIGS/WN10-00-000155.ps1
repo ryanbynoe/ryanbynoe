@@ -20,8 +20,6 @@
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
     PS C:\WN10-00-000155.ps1 
 #>
 
