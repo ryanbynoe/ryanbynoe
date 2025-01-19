@@ -1,4 +1,4 @@
-<#
+ <#
 .SYNOPSIS
     Ensures the registry value "AllowDomainPINLogon" exists and is configured correctly to meet security compliance.
 
@@ -39,8 +39,13 @@ if (-not (Test-Path $RegistryPath)) {
     Write-Host "Registry path created successfully: $RegistryPath" -ForegroundColor Green
 }
 
-# Check the current value of the registry key
-$CurrentValue = Get-ItemProperty -Path $RegistryPath -Name $ValueName -ErrorAction SilentlyContinue | Select-Object -ExpandProperty $ValueName -ErrorAction SilentlyContinue
+# Check and update the registry value
+try {
+    $CurrentValue = Get-ItemProperty -Path $RegistryPath -Name $ValueName -ErrorAction SilentlyContinue | Select-Object -ExpandProperty $ValueName -ErrorAction SilentlyContinue
+} catch {
+    Write-Host "Registry value $ValueName does not exist. It will be created." -ForegroundColor Yellow
+    $CurrentValue = $null
+}
 
 if ($CurrentValue -ne $ExpectedValue) {
     Write-Host "Registry value is missing or incorrect. Updating..." -ForegroundColor Yellow
@@ -50,10 +55,33 @@ if ($CurrentValue -ne $ExpectedValue) {
     Write-Host "Registry value is already correctly configured: $ValueName = $ExpectedValue" -ForegroundColor Green
 }
 
-# Confirm the update
-$UpdatedValue = Get-ItemProperty -Path $RegistryPath -Name $ValueName | Select-Object -ExpandProperty $ValueName
-if ($UpdatedValue -eq $ExpectedValue) {
-    Write-Host "Validation successful: $ValueName is correctly set to $ExpectedValue." -ForegroundColor Green
+# Clear Group Policy cache
+Write-Host "Clearing Group Policy cache..." -ForegroundColor Cyan
+$GroupPolicyPath = "C:\Windows\System32\GroupPolicy"
+if (Test-Path $GroupPolicyPath) {
+    Remove-Item -Path "$GroupPolicyPath\Machine" -Recurse -Force -ErrorAction SilentlyContinue
+    Remove-Item -Path "$GroupPolicyPath\User" -Recurse -Force -ErrorAction SilentlyContinue
+    Write-Host "Group Policy cache cleared." -ForegroundColor Green
 } else {
-    Write-Host "Validation failed: $ValueName is not correctly configured." -ForegroundColor Red
+    Write-Host "Group Policy cache directory not found. Skipping..." -ForegroundColor Yellow
 }
+
+# Force Group Policy update
+Write-Host "Forcing Group Policy update..." -ForegroundColor Cyan
+gpupdate /force | Out-Null
+Write-Host "Group Policy update completed." -ForegroundColor Green
+
+# Verify the registry value after update
+try {
+    $UpdatedValue = Get-ItemProperty -Path $RegistryPath -Name $ValueName -ErrorAction SilentlyContinue | Select-Object -ExpandProperty $ValueName
+    if ($UpdatedValue -eq $ExpectedValue) {
+        Write-Host "Validation successful: $ValueName is correctly set to $ExpectedValue." -ForegroundColor Green
+    } else {
+        Write-Host "Validation failed: $ValueName is not correctly configured." -ForegroundColor Red
+    }
+} catch {
+    Write-Host "Validation failed: Unable to retrieve $ValueName. Please check manually." -ForegroundColor Red
+}
+
+# Final message
+Write-Host "Reboot the system to ensure all changes take effect." -ForegroundColor Yellow 
