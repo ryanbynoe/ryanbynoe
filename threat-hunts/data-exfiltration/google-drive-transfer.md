@@ -28,7 +28,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, RemoteIP, RemoteUrl, RemotePort, InitiatingProcessCommandLine, InitiatingProcessAccountName
 | where Timestamp >= datetime(2025-01-22T01:53:32.9737726Z)
 ```
-<img width="1212" alt="image" src="/assets/1.jng">
+<img width="1212" alt="image" src="/assets/1.jpg">
 #### 2. File Transfer Analysis
 Searched the `DeviceFileEvents` table for any suspicious file transfers involving the `.csv` file extension, which is a common data format. Identified `two` company files transferred to a `Google Drive` location.
 
