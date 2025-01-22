@@ -1,7 +1,7 @@
 # Threat Hunt Report (Unauthorized Data Exfiltration)
 
 - [Scenario Creation](https://github.com/ryanbynoe/ryanbynoe/blob/main/threat-hunts/data-exfiltration/google-transfer-scenario.md)
-- 
+  
 ## Detection of Unauthorized File Share Use on Workstation: `ryan-lab-threat`
 
 ### Example Scenario:
