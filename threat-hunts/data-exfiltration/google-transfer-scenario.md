@@ -3,7 +3,7 @@
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Download the Google Drive Desktop installer: https://support.google.com/drive/answer/10838124?hl=en
-2. Installrf: ```GoogleDriveSetup.exe.```
+2. Install: ```GoogleDriveSetup.exe.```
 3. Transferred existing company files to personal google drive.
 ---
 
