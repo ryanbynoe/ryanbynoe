@@ -25,7 +25,7 @@ Searched the `DeviceFileEvents` table for any indications of any file downloads 
 DeviceFileEvents
 | where FileName startswith "google"
 ```
-<img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/0.jpg">
+<img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/0.png">
 
 #### 2. Network Events Analysis
 Searched the `DeviceNetworkEvents` table for any indications of cloud storage service interactions and identified several instances involving the remote URL `.googleapis.com` around the timestamp `2025-01-22T01:53:32.9737726Z`. Initiating process command lines included `updater.exe` and `googledriveFS.exe`.
