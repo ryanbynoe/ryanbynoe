@@ -54,7 +54,7 @@ DeviceFileEvents
 ```
 <img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/2.png">
 
-#### 4. File Transfer Analysis
+#### 4. Process Analysis
 Searched the `DeviceProcessEvents` table for interactions between applications around the timestamp `2025-01-22T01:53:32.9737726Z`. Observed interaction between `googledrivefs.exe` and `explorer.exe` on `Jan 21, 2025, 8:55:46 PM`, immediately preceding the file transfers.
 
 **Query to Locate Events:**
