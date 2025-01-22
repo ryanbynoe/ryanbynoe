@@ -17,8 +17,17 @@ Management suspects employees are using unauthorized cloud storage (e.g., Dropbo
 ---
 
 ### Steps Taken
+#### 1. Google Drive Download
+Searched the `DeviceFileEvents` table for any indications of any file downloads that start with `google` and noticed `googledrivesetup.exe` file was downloaded and deleted along with `googleupdate.exe`. Google Drive was potentially installed.
 
-#### 1. Network Events Analysis
+**Query to Locate Events:**
+```kql
+DeviceFileEvents
+| where FileName startswith "google"
+```
+<img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/0.jpg">
+
+#### 2. Network Events Analysis
 Searched the `DeviceNetworkEvents` table for any indications of cloud storage service interactions and identified several instances involving the remote URL `.googleapis.com` around the timestamp `2025-01-22T01:53:32.9737726Z`. Initiating process command lines included `updater.exe` and `googledriveFS.exe`.
 
 **Query to Locate Events:**
@@ -32,7 +41,7 @@ DeviceNetworkEvents
 ```
 <img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/1.jpg">
 
-#### 2. File Transfer Analysis
+#### 3. File Transfer Analysis
 Searched the `DeviceFileEvents` table for any suspicious file transfers involving the `.csv` file extension, which is a common data format. Identified `two` company files transferred to a `Google Drive` location.
 
 **Query to Locate Events:**
@@ -45,7 +54,7 @@ DeviceFileEvents
 ```
 <img width="1212" alt="image" src="/threat-hunts/data-exfiltration/assets/2.png">
 
-#### 3. File Transfer Analysis
+#### 4. File Transfer Analysis
 Searched the `DeviceProcessEvents` table for interactions between applications around the timestamp `2025-01-22T01:53:32.9737726Z`. Observed interaction between `googledrivefs.exe` and `explorer.exe` on `Jan 21, 2025, 8:55:46 PM`, immediately preceding the file transfers.
 
 **Query to Locate Events:**
@@ -61,11 +70,15 @@ DeviceProcessEvents
 
 ### Chronological Events
 
-1.  **Google Drive Cloud Storage Access**  
+1.  **Google Drive Installation**  
+    **Timestamp:** Jan 21, 2025, 8:49:34 PM  
+    `GoogleDriveSetup.exe` file was created and deleted leading to installation.
+    
+2.  **Google Drive Cloud Storage Access**  
     **Timestamp:** Jan 21, 2025, 8:53:32 PM  
     User `ryan` interacted with `googleapis.com`. This could indicate the download or synchronization of Google Drive services.
     
-2.  **Unauthorized File Transfer**  
+3.  **Unauthorized File Transfer**  
     **Timestamp:** Jan 21, 2025, 8:56:17 PM  
     Two files—`5951_EmployeeRecords.csv` and `8859_CompanyFinancials.csv`—were created in the folder path `G:\My Drive\`, signifying a file transfer to Google Drive.
 
