@@ -24,7 +24,7 @@
 |---------------------|------------------------------------------------------------------------------|
 | **Name**| DeviceNetworkEvents|
 | **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table|
-| **Purpose**| Used to detect googleapi network activity, specifically googledrivefs.exe and services.exe making connections over ports to be used by TOR (443, 80).|
+| **Purpose**| Used to detect googleapi network activity, specifically googledrivefs.exe and services.exe making connections over ports to be used by google (443, 80).|
 
 ---
 
@@ -37,7 +37,7 @@ DeviceFileEvents
 
 // Google Drive being installed
 DeviceProcessEvents
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe  /S"
+| where ProcessCommandLine contains "GoogleDriveSetup.exe.exe"
 | project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
 
 // Google Drive or service was successfully installed and is present on the disk
