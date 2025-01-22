@@ -1,5 +1,5 @@
 # Threat Hunt Report (Unauthorized Data Exfiltration)
-(Google Drive)![/threat-hunts/data-exfiltration/assets/256px-Google_Drive_icon_(2020).svg.png]
+![Google Drive](/threat-hunts/data-exfiltration/assets/256px-Google_Drive_icon_(2020).svg.png)
 - [Scenario Creation](https://github.com/ryanbynoe/ryanbynoe/blob/main/threat-hunts/data-exfiltration/google-transfer-scenario.md)
   
 ## Detection of Unauthorized File Share Use on Workstation: `ryan-lab-threat`
