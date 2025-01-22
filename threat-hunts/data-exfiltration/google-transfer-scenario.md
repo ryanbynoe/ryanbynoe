@@ -1,0 +1,82 @@
+# Threat Event (Unauthorized Google Drive File Transfer)
+**Unauthorized Google Drive Data Exfiltration**
+
+## Steps the "Bad Actor" took Create Logs and IoCs:
+1. Download the Google Drive Desktop installer: https://support.google.com/drive/answer/10838124?hl=en
+2. Installrf: ```GoogleDriveSetup.exe.```
+3. Transferred existing company files to personal google drive.
+---
+
+## Tables Used to Detect IoCs:
+| **Parameter**       | **Description**                                                              |
+|---------------------|------------------------------------------------------------------------------|
+| **Name**| DeviceFileEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
+| **Purpose**| Used for detecting file transfers into google drive. |
+
+| **Parameter**       | **Description**                                                              |
+|---------------------|------------------------------------------------------------------------------|
+| **Name**| DeviceProcessEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
+| **Purpose**| Used to detect the interactions with google drive processes.|
+
+| **Parameter**       | **Description**                                                              |
+|---------------------|------------------------------------------------------------------------------|
+| **Name**| DeviceNetworkEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table|
+| **Purpose**| Used to detect googleapi network activity, specifically googledrivefs.exe and services.exe making connections over ports to be used by TOR (443, 80).|
+
+---
+
+## Related Queries:
+```kql
+// Installer name == GoogleDriveSetup.exe
+// Detect the installer being downloaded
+DeviceFileEvents
+| where FileName startswith "google"
+
+// Google Drive being installed
+DeviceProcessEvents
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe  /S"
+| project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
+
+// Google Drive or service was successfully installed and is present on the disk
+DeviceFileEvents
+| where FileName has_any ("GoogleDriveSetup.exe", "GoogleDrive", "firefox.exe")
+| project  Timestamp, DeviceName, RequestAccountName,FileName, ActionType, InitiatingProcessCommandLine
+
+// Google Drive or service is being used and is actively creating network connections
+DeviceNetworkEvents
+| where RemoteUrl has_any ("dropbox.com", "drive.google.com", "googleapis.com")
+| where RemotePort in (443, 80)
+| project Timestamp, DeviceName, RemoteIP, RemoteUrl, RemotePort, InitiatingProcessCommandLine, InitiatingProcessAccountName
+
+// Company financial and employee records containing .csv file type
+DeviceFileEvents
+| where FileName contains ".csv"
+```
+
+---
+
+## Created By:
+- **Author Name**: Ryan Bynoe
+- **Author Contact**: https://www.linkedin.com/in/ryanbynoe/
+- **Date**: January 21, 2025
+
+## Validated By:
+- **Reviewer Name**: 
+- **Reviewer Contact**: 
+- **Validation Date**: 
+
+---
+
+## Additional Notes:
+- **None**
+
+---
+
+## Revision History:
+| **Version** | **Changes**                   | **Date**         | **Modified By**   |
+|-------------|-------------------------------|------------------|-------------------|
+| 1.0         | Initial draft                  | `January  21, 2025`  | `Ryan Bynoe`   
+
