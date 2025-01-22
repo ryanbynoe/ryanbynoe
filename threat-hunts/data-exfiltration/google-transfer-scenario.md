@@ -1,6 +1,5 @@
 # Threat Event (Unauthorized Google Drive File Transfer)
 **Unauthorized Google Drive Data Exfiltration**
-- [Scenario Creation](https://github.com/ryanbynoe/ryanbynoe/blob/main/threat-hunts/data-exfiltration/google-transfer-scenario.md)
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Download the Google Drive Desktop installer: https://support.google.com/drive/answer/10838124?hl=en
