@@ -6,6 +6,7 @@
 ### Projects 🔧
 - [Threat Hunting ‼️](https://github.com/ryanbynoe/threat-hunting-scenario-tor)
 - [Vulnerability Management Program Imlementation ⚙️](https://github.com/ryanbynoe/vulnerability-management-program)
+- [Phishing Analysis 🐟](https://github.com/ryanbynoe/Phishing_Analysis)
 - [2048 Game Deployed! 🎮](https://medium.com/@ryanabynoe/deploy-2048-game-with-aws-eks-kubernetes-and-ingress-eab39d730cc1)
 - [Mario Game GitOps!🍄](https://github.com/ryanbynoe/mario-game) 
 - [Netflix Clone 📼](https://github.com/ryanbynoe/aws-netflix-clone-kubernetes) 
