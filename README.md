@@ -16,7 +16,6 @@
 ### Education 🎓
 - Bachelor's of Science in Information Technology @ Liberty University
 ### Skills 🛠️
-### Skills 🛠️
 - **Languages**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Python, Bash, PowerShell
 - **Networking**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    TCP/IP, DNS, HTTP/S, SSL/TLS, VPN
 - **Security Tools**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    Wireshark, Nmap, Metasploit, Burp Suite, Nessus, Tenable
