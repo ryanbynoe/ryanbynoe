@@ -34,7 +34,7 @@
 
 - AWS Solutions Architect - Associate
 - Microsoft Certified: Azure Fundamentals
-- CompTIA Security+ [Expired]
+- CompTIA Security+ 
 - Docker Training for the Absolute Beginner
 
 ### Connect with me 📫
