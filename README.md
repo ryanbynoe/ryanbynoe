@@ -1,4 +1,4 @@
-# Ryan Bynoe | Identity & Access Management Engineer
+# Ryan Bynoe 
 
 <div align="center">
   
