@@ -87,6 +87,5 @@ Liberty University | Graduated May 2021
 Open to opportunities in Identity & Access Management, Security Operations, and Cloud Security
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ryanbynoe/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge)](https://RyanBynoe.com)
 
 </div>
